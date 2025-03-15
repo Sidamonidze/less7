@@ -14,9 +14,9 @@ function App() {
   return (
     <div>
       <div>
-        <img src={ricxvi} alt="" className="k2"/>
+        <img src={ricxvi} alt="" className="h2"/>
       </div>
-      <div className="k1">
+      <div className="h1">
         <img src={images[0]} alt="" onClick={() => setRicxvi(images[0])} />
         <img src={images[1]} alt="" onClick={() => setRicxvi(images[1])} />
         <img src={images[2]} alt="" onClick={() => setRicxvi(images[2])} />
