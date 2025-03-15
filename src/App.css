@@ -1,4 +1,4 @@
-.k2 {
+.h2 {
   width: 100%;
   max-width: 720px;
   height: auto;
@@ -9,11 +9,11 @@
   transition: transform 0.3s ease;
 }
 
-.k2:hover {
+.h2:hover {
   transform: scale(1.02);
 }
 
-.k1 {
+.h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -21,7 +21,7 @@
   margin-top: 10px;
 }
 
-.k1 img {
+.h1 img {
   width: 80px;
   height: 80px;
   object-fit: cover;
@@ -31,27 +31,27 @@
   border: 2px solid transparent;
 }
 
-.k1 img:hover {
+.h1 img:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.k1 img:active {
+.h1 img:active {
   transform: scale(0.95);
 }
 @media (max-width: 768px) {
-  .k1 img {
+  .h1 img {
     width: 60px;
     height: 60px;
   }
 }
 
 @media (max-width: 480px) {
-  .k1 img {
+  .h1 img {
     width: 50px;
     height: 50px;
   }
-  .k1 {
+  .h1 {
     gap: 5px;
   }
 }
